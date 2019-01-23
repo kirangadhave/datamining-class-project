@@ -1,0 +1,23 @@
+1. Who is in your group?
+  Kiran Gadhave - u1143683
+  Matthew Bradley - ?
+    
+2. What data you plan to use and where you plan to get it from?
+  We are planning on using European Soccer Database which is a huge soccer database from kaggle.
+  It is in sqlite database format which we will probably convert to csv.
+  It has multiple tables for Countries, Players, Leagues, Players and most importantly Matches.
+  After taking a preliminary look at the dataset challenge will be to manage the data, because total size of the database is upward of 300MB
+  There are few tables with missing values and will need cleaning up to make data uniform.
+
+3. What structure you want to mine from the data?
+  It will be interesting to see differnt types of players based their goals, passing % and assists.
+  We hope to categorze aggresive plays, defensive plays and midfield magicians who basically help pass ball from defense to offense.
+  Other interesting things we hope to explore are team dynamics and if we can induce a graph within a team which shows how closely players interact with others during match.
+  This will involve playing with and reshaping the available data.
+  
+4. Why this problem is interesting?
+  We both are soccer fans and its not easy to categorize players just from the position they play on the field, so using player statistics from matches to categorize them feels like an interesting problem to us.
+  
+5. What is new, or what I (the instructor) will learn?
+  The topic is interesting in terms of large and different type of data available in the database we have. This will enable us to apply and test multiple algorithms we learn in class.
+  We hope to elaborate and firmly formulate our plan as class moves forward and new techniques are introduced.
