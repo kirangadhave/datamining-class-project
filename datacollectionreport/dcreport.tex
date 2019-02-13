@@ -65,16 +65,16 @@
 	The original sqlite database has multiple tables which have varying sizes. The table below describes the dimensions of each:
 	\begin{table}[h!]
 		\begin{center}
-			\begin{tabular}{c|c}
-				\textbf{Table} & \textbf{Dimensions (Rows $\times$ Columns)} \\
+			\begin{tabular}{c|c c}
+				\textbf{Table} & \textbf{Dimensions (Rows $\times$ Columns)} & \textbf{File Size (Mb) \\
 				\hline
-				Country & $11 \times 2$\\
-				League & $11 \times 3$\\
-				Match & $25979 \times 115$\\
-				Player & $11060 \times 7$\\
-				Player Attributes & $183978 \times 42$\\
-				Team & $299 \times 5$\\
-				Team Attributes & $1458 \times 2$\\
+				Country & $11 \times 2$ & $<1$\\
+				League & $11 \times 3$ & $<1$\\
+				Match & $25979 \times 115$ & 279.4\\
+				Player & $11060 \times 7$ & $<1$\\
+				Player Attributes & $183978 \times 42$ & 30.1\\
+				Team & $299 \times 5$ & $<1$\\
+				Team Attributes & $1458 \times 2$ & $<1$\\
 			\end{tabular}
 		\end{center}
 	\end{table}
