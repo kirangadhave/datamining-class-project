@@ -1,0 +1,86 @@
+\documentclass[12pt]{extarticle}
+%Some packages I commonly use.
+\usepackage[english]{babel}
+\usepackage{graphicx}
+\usepackage{framed}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{enumerate}
+\usepackage[utf8]{inputenc}
+\usepackage[top=0.5 in,bottom=0.5in, left=0.75 in, right=0.75 in]{geometry}
+
+%A bunch of definitions that make my life easier
+\newcommand{\matlab}{{\sc Matlab} }
+\newcommand{\cvec}[1]{{\mathbf #1}}
+\newcommand{\rvec}[1]{\vec{\mathbf #1}}
+\newcommand{\ihat}{\hat{\textbf{\i}}}
+\newcommand{\jhat}{\hat{\textbf{\j}}}
+\newcommand{\khat}{\hat{\textbf{k}}}
+\newcommand{\minor}{{\rm minor}}
+\newcommand{\trace}{{\rm trace}}
+\newcommand{\spn}{{\rm Span}}
+\newcommand{\rem}{{\rm rem}}
+\newcommand{\ran}{{\rm range}}
+\newcommand{\range}{{\rm range}}
+\newcommand{\mdiv}{{\rm div}}
+\newcommand{\proj}{{\rm proj}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\<}{\langle}
+\renewcommand{\>}{\rangle}
+\renewcommand{\emptyset}{\varnothing}
+\newcommand{\attn}[1]{\textbf{#1}}
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{corollary}{Corollary}
+\newtheorem*{definition}{Definition}
+\newtheorem*{example}{Example}
+\newtheorem*{note}{Note}
+\newtheorem{exercise}{Exercise}
+\newcommand{\bproof}{\bigskip {\bf Proof. }}
+\newcommand{\eproof}{\hfill\qedsymbol}
+\newcommand{\Disp}{\displaystyle}
+\newcommand{\qe}{\hfill\(\bigtriangledown\)}
+\setlength{\columnseprule}{1 pt}
+
+\title{Data Collection Report}
+\author{Kiran Gadhave - u1143683\\Matthew Bradley - u1206298}
+
+\begin{document}
+
+\maketitle
+
+\begin{itemize}
+
+	\item \textbf{Source:}\\
+	The data is taken from a Kaggle repository located at following url: 
+	$$https://www.kaggle.com/hugomathien/soccer/version/10 $$
+	The data is in form of an sqlite database which we downloaded and processed as described below.
+	\item \textbf{Size:}\\
+	The original sqlite database has multiple tables which have varying sizes. The table below describes the dimensions of each:
+	\begin{table}[h!]
+		\begin{center}
+			\begin{tabular}{c|c}
+				\textbf{Table} & \textbf{Dimensions (Rows $\times$ Columns)} \\
+				\hline
+				Country & $11 \times 2$\\
+				League & $11 \times 3$\\
+				Match & $25979 \times 115$\\
+				Player & $11060 \times 7$\\
+				Player Attributes & $183978 \times 42$\\
+				Team & $299 \times 5$\\
+				Team Attributes & $1458 \times 2$\\
+			\end{tabular}
+		\end{center}
+	\end{table}
+	\item \textbf{Format:}\\
+	\item \textbf{Preprocessing:}\\
+	\item \textbf{Simulation:}\\
+
+\end{itemize}
+\end{document}
