@@ -11,8 +11,6 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 import os
-from math import sqrt
-
 from Gonzales import Gonzales
 
 print(chr(27) + "[2J")
@@ -58,6 +56,17 @@ vectorized_players_df.info()
 description = vectorized_players_df.describe()
 
 vectorized_players = vectorized_players_df.values
+
+
+###############################################################################
+###############################################################################
+###############################################################################
+#############################                    ##############################
+############################# Gonzales Algorithm ##############################
+#############################                    ##############################
+###############################################################################
+###############################################################################
+###############################################################################
 
 clusters, three_cen_cost, three_mean_cost, centers = Gonzales(vectorized_players, vectorized_players[0,:], k=2)
 
