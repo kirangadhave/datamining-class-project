@@ -27,8 +27,7 @@ def Gonzales(data, c1, k=3):
     arr = [dist(d, clusters[assignments[idx],:]) for idx,d in enumerate(data)]
     max3cenCost = max(arr)
     mean3Cost = sqrt(sum([x**2 for x in arr])/len(arr))
-    print(max3cenCost, mean3Cost)
-    print(clusters)
+    
     data = np.append(data, np.array([[i] for i in list(assignments.values())]), axis=1)
     return data, max3cenCost, mean3Cost, clusters
 
