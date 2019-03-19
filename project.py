@@ -68,7 +68,7 @@ vectorized_players = vectorized_players_df.values
 ###############################################################################
 ###############################################################################
 
-clusters, three_cen_cost, three_mean_cost, centers = Gonzales(vectorized_players, vectorized_players[0,:], k=2)
+clusters, three_cen_cost, three_mean_cost, centers = Gonzales(vectorized_players, vectorized_players[0,:], k=3)
 
 print(clusters.shape)
 
